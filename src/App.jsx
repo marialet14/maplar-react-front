@@ -1,0 +1,17 @@
+import { Routes, Route } from 'react-router-dom';
+
+import Home from './pages/Home.jsx';
+import Anunciar from './pages/Anunciar.jsx';
+import MeusAnuncios from './pages/MeusAnuncios.jsx';
+import Login from './pages/Login.jsx';
+
+export default function App() {
+    return (
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/anunciar" element={<Anunciar />} />
+            <Route path="/meus-anuncios" element={<MeusAnuncios />} />
+            <Route path="/login" element={<Login />} />
+        </Routes>
+    );
+}

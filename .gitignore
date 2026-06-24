@@ -1,0 +1,14 @@
+# Dependências
+node_modules
+
+# Build do Vite
+dist
+dist-ssr
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/*
+.DS_Store
